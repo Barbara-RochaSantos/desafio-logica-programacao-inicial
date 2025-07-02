@@ -25,10 +25,10 @@ let experienciaHeroi = 200;
 
 // Utilizando uma estrutura de decisão para apresentar os níveis de experiência do herói
 if (experienciaHeroi < 1000){
-	console.log ("O héroi " + nomeHeroi + " está no nível de " + "Ferro")}
+	console.log ("O héroi " + nomeHeroi + " está no nível de " + "Ferro")}    // Utilizo concatenação para exibir o nome do herói e o nível de experiência
 else if (experienciaHeroi >=1001 && experienciaHeroi <= 2000){
 	console.log ("O héroi " + nomeHeroi + " está no nível de " + "Bronze")}
-else if (experienciaHeroi >=2001 && experienciaHeroi <=5000){
+else if (experienciaHeroi >=2001 && experienciaHeroi <=5000){   // Utilizo o operador lógico "&&" para verificar se a experiência do herói está dentro do intervalo de 2001 a 5000
 	console.log ("O héroi " + nomeHeroi + " está no nível de " + "Prata")}
 else if (experienciaHeroi >=5001 && experienciaHeroi <=7000){
 	console.log ("O héroi " + nomeHeroi + " está no nível de " + "Ouro")}
